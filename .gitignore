@@ -1,0 +1,4 @@
+.created-by-session
+__pycache__/
+*.pyc
+.DS_Store
