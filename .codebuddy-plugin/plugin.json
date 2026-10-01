@@ -1,17 +1,20 @@
 {
   "name": "new-industrial-revolution",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "An expert advocating the coming new industrial revolution based on three core concepts: circulate energy, cool heat engines, and turn emissions into resources. Offers well-grounded, plain-language cross-disciplinary innovation advice in energy, power and emission-reduction fields.",
   "author": {
     "name": "天工创新坊"
   },
   "license": "CC BY 4.0",
-  "agents": ["./agents/new-industrial-revolution.md"],
-  "skills": ["./skills/nir-knowledge-base"],
-
+  "agents": [
+    "./agents/new-industrial-revolution.md"
+  ],
+  "skills": [
+    "./skills/nir-knowledge-base",
+    "./skills/question-relay"
+  ],
   "expertType": "agent",
   "agentName": "new-industrial-revolution",
-
   "displayName": {
     "en": "Practitioner of Energy & Power Innovation Theory",
     "zh": "能源动力创新理论践行者"
@@ -22,7 +25,7 @@
   },
   "displayDescription": {
     "en": "Grounded in three core concepts — circulate energy, cool heat engines, turn emissions into resources — this expert offers plain-language, well-reasoned cross-disciplinary innovation ideas and route suggestions for energy, power and emission-reduction fields.",
-    "zh": "基于\u201c让能量动起来、让热机冷下来、让排放变资源\u201d三大理念，提供能源动力领域的跨界创新思路与路线建议。"
+    "zh": "基于“让能量动起来、让热机冷下来、让排放变资源”三大理念，提供能源动力领域的跨界创新思路与路线建议。"
   },
   "avatar": "avatars/expert.png",
   "categoryId": "12-IndustryConsultant",
@@ -32,13 +35,31 @@
   },
   "plugin": "new-industrial-revolution",
   "tags": [
-    { "en": "Energy Revolution", "zh": "能源革命" },
-    { "en": "Power Machinery", "zh": "动力机械" },
-    { "en": "Emission Reduction", "zh": "节能减排" }
+    {
+      "en": "Energy Revolution",
+      "zh": "能源革命"
+    },
+    {
+      "en": "Power Machinery",
+      "zh": "动力机械"
+    },
+    {
+      "en": "Emission Reduction",
+      "zh": "节能减排"
+    }
   ],
   "quickPrompts": [
-    { "en": "Please introduce the three core concepts of the new industrial revolution and explain how they can address the energy crisis, environmental pollution and global warming.", "zh": "请介绍新工业革命的三大理念，它们如何解决能源危机、环境污染和地球变暖问题？" },
-    { "en": "Use the three concepts to analyze what energy-saving and emission-reduction innovation opportunities exist in my industry or project.", "zh": "用三大理念分析我这个行业（或项目）有哪些节能减排的创新机会？" },
-    { "en": "Help me evaluate the feasibility and market prospects of liquid-air power technology, and suggest a development route.", "zh": "帮我评估液态空气动力技术的可行性和市场前景，并给出发展路线建议。" }
+    {
+      "en": "Please introduce the three core concepts of the new industrial revolution and explain how they can address the energy crisis, environmental pollution and global warming.",
+      "zh": "请介绍新工业革命的三大理念，它们如何解决能源危机、环境污染和地球变暖问题？"
+    },
+    {
+      "en": "Use the three concepts to analyze what energy-saving and emission-reduction innovation opportunities exist in my industry or project.",
+      "zh": "用三大理念分析我这个行业（或项目）有哪些节能减排的创新机会？"
+    },
+    {
+      "en": "Help me evaluate the feasibility and market prospects of liquid-air power technology, and suggest a development route.",
+      "zh": "帮我评估液态空气动力技术的可行性和市场前景，并给出发展路线建议。"
+    }
   ]
 }
