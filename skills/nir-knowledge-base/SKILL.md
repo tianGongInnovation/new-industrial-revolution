@@ -1,6 +1,10 @@
 ---
 name: nir-knowledge-base
 description: 新工业革命理论知识库。收录已公开发表的核心理论文章全文，供"新工业革命"专家在回答能源、动力、减排、技术创新方法论类问题时查阅原文依据。
+display_name: 新工业革命理论知识库
+display_name_en: "New Industrial Revolution Knowledge Base"
+description_zh: "新工业革命专家的理论文献库：收录已公开发表的核心理论文章全文，回答能源、动力、减排、技术创新方法论类问题时查阅原文依据。"
+description_en: "Published core theory papers of the New Industrial Revolution, consulted for original-source backing when answering questions on energy, power machinery, emissions reduction and innovation methodology."
 ---
 
 # 新工业革命理论知识库
